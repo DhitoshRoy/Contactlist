@@ -23,8 +23,8 @@ const Home = () => {
                 </div>
                 <div className='col-md-10 mx-auto'>
                     <table className='table table-hover'>
-                        <thead className='text-white bg-dark text-center'>
-                            <tr>
+                        <thead className='text-white bg-dark text-center fs-4'>
+                            <tr className="fs-5">
                                 <th scope='col'>Sl no.</th>
                                 <th scope='col'>Name</th>
                                 <th scope='col'> Email ID </th>
@@ -32,7 +32,7 @@ const Home = () => {
                                 <th scope='col'>Action</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className='fs-5 text-primary'>
                             {
                                 contacts.map((contact, id) => (
                                     <tr key={id}>
